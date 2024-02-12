@@ -1,5 +1,5 @@
 import about from '../../assets/images/about.jpg';
-import { TfiHandPointRight } from "react-icons/tfi";
+
 
 
 const About = () => {
@@ -18,16 +18,27 @@ const About = () => {
             </div>
 
             {/* About text */}
-            <div className='flex-1 md:bg-gray-200 rounded-xl '>
-                <ul className=' p-2 md:p-10 list-disc' >
-                    <li className=' mb-5 font-medium'> Lorem ipsum dolor sit adipisicing elit magni temporibus corporis. </li>
-                    <li className=' mb-5  font-medium'>Consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </li>
-                    <li className=' mb-5  font-medium'>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </li>
-                    <li className=' mb-5  font-medium'>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. </li>
-                    <li className=' mb-5 font-medium'> Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </li>
+            <div className='flex-1 md:bg-gray-100 rounded-xl '>
 
 
+                <ul className="list-disc  font-medium p-2 md:p-10">
+                    <li className="mb-5">
+                        As a seasoned marketing consultant, I've helped numerous businesses strategize and execute successful marketing campaigns.
+                    </li>
+                    <li className="mb-5">
+                        My approach involves understanding your target audience, analyzing market trends, and crafting compelling messages to drive engagement.
+                    </li>
+                    <li className="mb-5">
+                        Leveraging digital marketing tools and analytics, I optimize campaigns for maximum ROI and long-term growth.
+                    </li>
+                    <li className="mb-5">
+                        From social media management to SEO, I offer a comprehensive range of services tailored to your business needs.
+                    </li>
+                    <li >
+                        Let's collaborate to elevate your brand and achieve your marketing goals together.
+                    </li>
                 </ul>
+
 
 
             </div>

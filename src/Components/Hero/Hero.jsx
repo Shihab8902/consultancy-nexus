@@ -46,7 +46,7 @@ const Hero = () => {
 
                             {/* action button */}
                             <div>
-                                <button className='w-full mt-8 bg-yellow-500 hover:bg-[#FADA5E] text-lg py-3 text-black font-medium rounded'>Register Now at ₹599 <span className=' line-through ml-1'>2499</span></button>
+                                <button className='w-full mt-8 bg-yellow-500 hover:bg-yellow-400 text-lg py-3 text-black font-medium rounded'>Register Now at ₹599 <span className=' line-through ml-1'>2499</span></button>
                             </div>
 
                             <p className='underline text-center mt-3 cursor-pointer'>Click here to get team discount</p>
