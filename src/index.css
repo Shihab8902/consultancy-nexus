@@ -8,8 +8,7 @@
 
 }
 
-
-
 body {
     font-family: 'general-sans', sans-serif;
+    overflow-x: hidden;
 }

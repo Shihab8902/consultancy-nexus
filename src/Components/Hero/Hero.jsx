@@ -5,7 +5,7 @@ import { MdOutlineDateRange } from "react-icons/md";
 import { CiClock2 } from "react-icons/ci";
 import { GiSandsOfTime } from "react-icons/gi";
 
-const Hero = () => {
+const Hero = ({ showForm, setShowForm }) => {
     return (
         <div className='relative min-h-screen'>
             {/* Background image */}
@@ -46,7 +46,7 @@ const Hero = () => {
 
                             {/* action button */}
                             <div>
-                                <button className='w-full mt-8 bg-yellow-500 hover:bg-yellow-400 text-lg py-3 text-black font-medium rounded'>Register Now at ₹599 <span className=' line-through ml-1'>2499</span></button>
+                                <button onClick={() => setShowForm(!showForm)} className='w-full mt-8 bg-yellow-500 hover:bg-yellow-400 text-lg py-3 text-black font-medium rounded'>Register Now at ₹599 <span className=' line-through ml-1'>2499</span></button>
                             </div>
 
                             <p className='underline text-center mt-3 cursor-pointer'>Click here to get team discount</p>

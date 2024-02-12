@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
 
-const CountDown = () => {
+const CountDown = ({ showForm, setShowForm }) => {
     const [timeLeft, setTimeLeft] = useState(600); // Initial 10 minutes time in second
 
 
@@ -51,7 +51,7 @@ const CountDown = () => {
                 <div className=' flex justify-center my-10'> {formatTime(timeLeft)}</div>
 
                 <div>
-                    <button className='w-3/4 md:w-5/12  bg-yellow-500 hover:bg-yellow-400 text-lg py-4 text-black font-medium rounded'>
+                    <button onClick={() => setShowForm(!showForm)} className='w-3/4 md:w-5/12  bg-yellow-500 hover:bg-yellow-400 text-lg py-4 text-black font-medium rounded'>
                         {
                             timeLeft > 0 ? <span>Register Now at ₹599 <span className=' line-through ml-1'>2499</span></span> : <span>Register at ₹2499</span>
                         }

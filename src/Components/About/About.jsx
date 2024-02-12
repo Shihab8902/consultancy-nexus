@@ -1,8 +1,22 @@
 import about from '../../assets/images/about.jpg';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+import { useEffect } from 'react';
 
 
 
 const About = () => {
+
+    //Initialize aos
+    useEffect(() => {
+        AOS.init({
+            duration: 800
+        })
+    });
+
+
+
+
     return <div className="container mx-auto px-5 my-20">
         {/* Heading */}
         <div>
@@ -18,7 +32,7 @@ const About = () => {
             </div>
 
             {/* About text */}
-            <div className='flex-1 md:bg-gray-100 rounded-xl '>
+            <div data-aos="fade-left" className='flex-1 md:bg-gray-100 rounded-xl '>
 
 
                 <ul className="list-disc  font-medium p-2 md:p-10">
