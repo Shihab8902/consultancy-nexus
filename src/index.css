@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: 'general-sans';
+    src: url('font/GeneralSans-Variable.ttf') format('truetype');
+
+}
+
+
+
+body {
+    font-family: 'general-sans', sans-serif;
+}
